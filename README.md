@@ -16,8 +16,6 @@ npm i
 npm run dev
 ```
 
-For production environments...
-
 ## Endpoints
 
 Employees Endpoints:
