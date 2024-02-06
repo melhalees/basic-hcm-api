@@ -11,7 +11,7 @@ git clone https://github.com/melhalees/basic-hcm-api.git
 
 Install the dependencies and devDependencies and start the server.
 ```sh
-basic-hcm-api
+cd basic-hcm-api
 npm i
 npm run dev
 ```
