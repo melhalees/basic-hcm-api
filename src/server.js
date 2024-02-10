@@ -3,11 +3,11 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser');
 
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.use("/api/v1/", require("./api/v1/routes/index"));
-
+app.use("/api/v2/", require("./api/v2/routes/index"));
 
 app.get('/', (req, res) => {
    res.send("Hello World from Express.js")
